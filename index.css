@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 600px;
+   
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url('https://assets.nflxext.com/ffe/siteui/vlv3/e451379a-dd0a-4657-b530-4ca4c0cb2aee/430b26cf-b6e1-473e-a55d-0abc03631481/IN-en-20230123-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+.netflix{
+    font-size:50px;
+    padding-left:30px;
+}
+.right{
+    padding-right:180px;
+    height:40px;
+    width:400px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+
+.uma{
+    width:80px;
+    height:40px;
+    background-color: red;
+    color:white;
+    font-size:large;
+    border-radius: 2px;
+    padding-left: 8px;
+    padding-top:4px;
+
+}
+.fi-rr-globe{
+    color:white;
+}
+
+
+
+
+.select{
+   background:none;
+   font-size: 16px;
+   color: white;
+  
+  
+}
+.english{
+    color: white;
+}
+.select:focus{
+    outline: none;
+}
+    
+
+.container h1{
+    color:white;
+    font-weight:bolder;
+}
+.container{
+    height:60px;
+   
+    width:100%;
+    color:white;
+    font-size: 25px;
+    margin-top:110px;
+    
+ 
+
+}
+.up{
+    padding-left:300px;
+    padding-right:300px;
+}
+.down{
+    padding-left:500px;
+    padding-right:500px;
+    
+    
+}
+.container1{
+    height:60px;
+    width:100%;
+    
+    color:white;
+    font-size:25px;
+    margin-top:1px;
+}
+.container2{
+    height:60px;
+ 
+    width:100%;
+    color:white;
+    font-size: 25px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.container3{
+    height:80px;
+    
+    width:100%;
+    color:white;
+    font-size: 20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.dabba{
+    height:50px;
+    width:550px;
+    font-size:15px;
+}
+.container4{
+    height:50px;
+    width:150px;
+    color:white;
+    background-color:red;
+    padding-top:11px;
+    padding-left:12px;
+    font-size:20px;
+    font-weight: 500px;
+
+}
+.search{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
